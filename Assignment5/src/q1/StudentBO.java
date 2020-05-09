@@ -33,23 +33,11 @@ public class StudentBO {
 	}
 
 	public void sortName() {
-		Collections.sort(al, new Comparator<Student>() {
-
-			@Override
-			public int compare(Student a, Student b) {
-				return a.getName().compareTo(b.getName());
-			}
-		});
+		Collections.sort(al, (a,b) -> {return a.getName().compareTo(b.getName());});
 	}
 
 	public void sortCity() {
-		Collections.sort(al, new Comparator<Student>() {
-
-			@Override
-			public int compare(Student a, Student b) {
-				return a.getCity().compareTo(b.getCity());
-			}
-		});
+		Collections.sort(al, (a,b) -> {return a.getCity().compareTo(b.getCity());});
 	}
 
 	public void searchById(int id) {
