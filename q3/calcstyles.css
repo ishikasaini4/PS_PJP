@@ -1,0 +1,42 @@
+#calc{ 
+    margin-top: 45px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+table{
+    background-color: rgba(134, 144, 175, 0.342);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input{
+  color:black;
+  border-radius: 8px;
+  width: 65px;
+  height: 55px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#result{
+    width: 340px;
+    height: 60px;
+    margin: 15px;
+    text-align: right;
+    background-color: cornsilk;
+    color: black;
+}
+#clear{
+    background-color: rgb(98, 137, 171);
+}
+.num{
+    background-color: #fff;
+}
+.operator{
+    background-color: rgb(87, 92, 131);
+}
+

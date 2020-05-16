@@ -1,0 +1,18 @@
+body{
+    padding: 5%;
+    padding-top: 1%;
+}
+header{
+    text-align: center;
+}
+h2{
+    margin: 30px auto;
+    background-color: lavender;
+}
+.table,.btn{
+    text-align: center;
+}
+
+#pbcontainer{
+    margin-bottom: 4%;
+}
