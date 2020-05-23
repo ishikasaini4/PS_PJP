@@ -1,0 +1,21 @@
+.container{
+    text-align: center;
+    margin-top: 30px;
+}
+header{
+    font-size: xx-large;
+    text-align: center;
+    background-color: peachpuff;
+    padding-top: 25px;
+}
+footer{
+    height: 25px;
+    background-color: peachpuff;
+}
+.btn{
+    margin: 15px 0;
+}
+#showName{
+    width: 40%;
+    margin: 0 auto;
+}

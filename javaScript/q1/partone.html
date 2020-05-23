@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="one.css">
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/bootstrap/js/jquery-3.5.1.js"></script>
+    <script src="onescript.js"></script>
+    <title>Arithmetic operations</title>
+    <header>BASIC ARITHMETIC OPERATIONS</header>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <input class="form-control input-lg" id="n1" type="number" name="number1" placeholder="Enter number 1">
+            <input class="form-control input-lg" id="n2" type="number" name="number2" placeholder="Enter number 2">
+        </form>
+        <div>
+            <label class="radio-inline"><input type="radio" value="1" name="operation"> Add</label>
+            <label class="radio-inline"><input type="radio" value="2" name="operation"> Subtract</label>
+            <label class="radio-inline"><input type="radio" value="3" name="operation"> Multiply</label>
+            <label class="radio-inline"><input type="radio" value="4" name="operation"> Divide</label><br/>
+            <button class="btn btn-primary" name="calc" onclick="getResult()">CALCULATE</button><br>
+            <p class="form-control" type="text" id="res" disabled></p>
+        </div>
+    </div>
+</body>
+</html>
